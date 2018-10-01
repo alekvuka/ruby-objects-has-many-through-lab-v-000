@@ -15,9 +15,9 @@ class Artist
 
   end
 
-  def songs
-    
-  end
+#  def songs
+#    Song.all.collect do
+#  end
 
   def genres
   end
