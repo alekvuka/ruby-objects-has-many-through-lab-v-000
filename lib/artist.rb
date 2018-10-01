@@ -16,6 +16,7 @@ class Artist
   end
 
   def songs
+    
   end
 
   def genres
