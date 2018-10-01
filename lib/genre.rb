@@ -9,6 +9,9 @@ class Genre
     @@all << self
   end
 
+  def songs
+    
+
   def self.all
     @@all
   end
