@@ -1,21 +1,26 @@
 require 'pry'
 
-class Artist 
+class Artist
 
-  attr_accessor :name 
+  attr_accessor :name
   @@all = Array.new
 
   def initialize(name)
-    @name = name 
-  end 
+    @name = name
+  end
+
+  def new_song
+  end
+
+  def songs
+  end
+
+  def genres
+  end
+
+  def self.all
+    @@all
+  end
 
 
-
-
-  def self.all 
-    @@all 
-  end 
-
-
-end 
-
+end
