@@ -21,7 +21,10 @@ class Artist
   end
 
   def genres
-    
+    array_of_songs = self.songs
+    array_of_songs.select do |song|
+      song.genre
+    end 
   end
 
   def self.all
