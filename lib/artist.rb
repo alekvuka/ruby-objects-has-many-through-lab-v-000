@@ -21,8 +21,10 @@ class Artist
   end
 
   def genres
-    arr = self.songs
-    binding.pry
+    self.songs.select do |song|
+      song.genre
+    end
+    #binding.pry
   end
 
   def self.all
