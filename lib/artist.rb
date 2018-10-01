@@ -21,7 +21,7 @@ class Artist
   end
 
   def genres
-    self.songs
+    arr = self.songs
     binding.pry
   end
 
